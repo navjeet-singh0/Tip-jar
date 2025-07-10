@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# 💰 Tip Jar – Solidity Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A simple Ethereum-based smart contract that allows anyone to send ETH tips to the owner. Built with Solidity and deployable on testnets or mainnet.
 
-Try running some of the following tasks:
+---
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## 📜 Features
+
+- ✅ Accept ETH tips from anyone  
+- ✅ Owner-only withdrawal function  
+- ✅ Total tips tracker  
+- ✅ Message attached to each tip  
+- ✅ Emits event for every tip received
+
+---
+
+## 🛠️ Tech Stack
+
+- Solidity `^0.8.20`  
+- Hardhat (for local testing & deployment)  
+- Remix IDE compatible  
+- MetaMask / Wallet support for interaction
+
